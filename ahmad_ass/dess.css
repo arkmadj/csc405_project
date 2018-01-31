@@ -1,0 +1,127 @@
+body {
+    background-color: rgba(173, 175, 175, 0.753);
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    margin: auto;
+    font-family: Verdana,sans-serif;
+}
+
+.back-bar {
+    background-color: white;
+    width: 100%;
+    height: 4.5%;;
+    border-bottom: 1px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+}
+/* .nav-bar{
+    width: 70%;
+    margin-left: 20%;
+} */
+.nav-bar ul {
+    margin-left: 30%;
+    width: 40%;
+    padding-top: .75%;
+}
+
+.nav-bar li {
+    display: inline;
+    padding-right: 2%;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    padding-left: 1%;
+    padding-right: 1%;
+    color: black;
+}
+.nav-bar a:hover {
+    border-bottom: 3px solid red;
+}
+
+#back-img {
+    width: 100%;
+}
+.drop-down{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 13%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.drop-down a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.drop-but:hover .drop-down{
+    display: block;
+}
+.drop-but a:hover{
+    background-color: #d4cccc;
+}
+
+.cont {
+    width: 70%;
+    margin-left: 15%;
+    background-color: white;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 1%;
+}
+.formet input{
+    width: 60%;
+    margin-left: 20%;
+    height: 7%;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding-left: 1%;
+}
+.formet input[type=submit]{
+    background-color: red;
+    color: white;
+}
+.formet input[type=submit]:hover{
+    background-color: rgb(126, 3, 3);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+ textarea{
+    width: 60%;
+    margin-left: 20%;
+    height: 30%;
+    border: 1px solid black;    
+    border-radius: 4px;
+    padding-left: 1%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    font-size: 120%;
+ }
+ .formet{
+     padding-top: 5%;
+     padding-bottom: 5%;
+ }
+.img-tex{
+    margin-left: 23%;
+    width: 50%;
+    border-radius: 1%;
+}
+.img-tex:hover{
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.first-cont{
+    border-bottom: 1px solid black;
+    padding: 2%;
+}
+.sec-cont{
+    border-bottom: 1px solid black;
+    padding: 2%;
+}
+.sec-cont li{
+    display: inline;
+    list-style: none;
+    margin-left: 7%; 
+}
+.thi-cont{
+    border-bottom: 1px solid black;
+    padding: 2%;
+}
